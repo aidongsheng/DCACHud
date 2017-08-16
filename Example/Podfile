@@ -1,11 +1,4 @@
-use_frameworks!
-
 target 'DCACHud_Example' do
   pod 'DCACHud', :path => '../'
-
-  target 'DCACHud_Tests' do
-    inherit! :search_paths
-
-    
-  end
+  pod 'MBProgressHUD' , '~> 1.0.0'
 end

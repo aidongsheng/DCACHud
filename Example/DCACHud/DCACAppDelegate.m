@@ -7,12 +7,16 @@
 //
 
 #import "DCACAppDelegate.h"
+#import "DCACViewController.h"
 
 @implementation DCACAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    _window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    DCACViewController * controller = [[DCACViewController alloc]init];
+    [_window setRootViewController:controller];
+    [_window makeKeyAndVisible];
     return YES;
 }
 

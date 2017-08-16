@@ -20,10 +20,7 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		C2ED9D69E23F1518ACD5C475 /* Pods_DCACHud_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA2F39F21BE5955CA721A946 /* Pods_DCACHud_Example.framework */; };
-		C8AE12CE3D079EFAA1C20853 /* Pods_DCACHud_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1156FDA36FEEA730F92E1D8 /* Pods_DCACHud_Tests.framework */; };
+		823D8B3B2052036615D555F2 /* libPods-DCACHud_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F534224420C9D689BD6E5B0 /* libPods-DCACHud_Example.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,9 +34,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		017D99CE548F25C868B9B21B /* Pods-DCACHud_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DCACHud_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DCACHud_Tests/Pods-DCACHud_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		1BC2C6892CFBE338951CAD90 /* DCACHud.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = DCACHud.podspec; path = ../DCACHud.podspec; sourceTree = "<group>"; };
-		2F1659A3C362D72B0379DCB8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		1BC2C6892CFBE338951CAD90 /* DCACHud.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DCACHud.podspec; path = ../DCACHud.podspec; sourceTree = "<group>"; };
+		2F1659A3C362D72B0379DCB8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		2F534224420C9D689BD6E5B0 /* libPods-DCACHud_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DCACHud_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* DCACHud_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DCACHud_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -59,14 +56,10 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BE1ED01B2DC680576D8A170F /* Pods-DCACHud_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DCACHud_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DCACHud_Tests/Pods-DCACHud_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D1156FDA36FEEA730F92E1D8 /* Pods_DCACHud_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DCACHud_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D246A917C35E40DBC371A52A /* Pods-DCACHud_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DCACHud_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DCACHud_Example/Pods-DCACHud_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D413C7F008E87CF2FC2783DB /* Pods-DCACHud_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DCACHud_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-DCACHud_Example/Pods-DCACHud_Example.release.xcconfig"; sourceTree = "<group>"; };
-		DA2F39F21BE5955CA721A946 /* Pods_DCACHud_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DCACHud_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF19B0FB2B067F3DF4B0DAB0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		DF19B0FB2B067F3DF4B0DAB0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +70,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				C2ED9D69E23F1518ACD5C475 /* Pods_DCACHud_Example.framework in Frameworks */,
+				823D8B3B2052036615D555F2 /* libPods-DCACHud_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +81,6 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				C8AE12CE3D079EFAA1C20853 /* Pods_DCACHud_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,8 +92,6 @@
 			children = (
 				D246A917C35E40DBC371A52A /* Pods-DCACHud_Example.debug.xcconfig */,
 				D413C7F008E87CF2FC2783DB /* Pods-DCACHud_Example.release.xcconfig */,
-				BE1ED01B2DC680576D8A170F /* Pods-DCACHud_Tests.debug.xcconfig */,
-				017D99CE548F25C868B9B21B /* Pods-DCACHud_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -134,8 +124,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				DA2F39F21BE5955CA721A946 /* Pods_DCACHud_Example.framework */,
 				D1156FDA36FEEA730F92E1D8 /* Pods_DCACHud_Tests.framework */,
+				2F534224420C9D689BD6E5B0 /* libPods-DCACHud_Example.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -145,10 +135,8 @@
 			children = (
 				6003F59C195388D20070C39A /* DCACAppDelegate.h */,
 				6003F59D195388D20070C39A /* DCACAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* DCACViewController.h */,
 				6003F5A6195388D20070C39A /* DCACViewController.m */,
-				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
@@ -223,12 +211,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "DCACHud_Tests" */;
 			buildPhases = (
-				BE484FFCBA090B0A89014FF3 /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				CCAE4DD5BABBA5AE878FBAF1 /* [CP] Embed Pods Frameworks */,
-				DC1DD0AB73D0B6067A6BB43A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,6 +235,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = aidongsheng;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = EDZBP7JQA9;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -279,8 +267,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
-				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
@@ -327,36 +313,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DCACHud_Example/Pods-DCACHud_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		BE484FFCBA090B0A89014FF3 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		CCAE4DD5BABBA5AE878FBAF1 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DCACHud_Tests/Pods-DCACHud_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		D49C6F3BF7A8579881848A59 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -370,21 +326,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DCACHud_Example/Pods-DCACHud_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DC1DD0AB73D0B6067A6BB43A /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DCACHud_Tests/Pods-DCACHud_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -433,14 +374,6 @@
 				6003F5B9195388D20070C39A /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				71719F9E1E33DC2100824A3D /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -524,11 +457,12 @@
 			baseConfigurationReference = D246A917C35E40DBC371A52A /* Pods-DCACHud_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EDZBP7JQA9;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DCACHud/DCACHud-Prefix.pch";
 				INFOPLIST_FILE = "DCACHud/DCACHud-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.westyou.app2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -539,11 +473,12 @@
 			baseConfigurationReference = D413C7F008E87CF2FC2783DB /* Pods-DCACHud_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EDZBP7JQA9;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DCACHud/DCACHud-Prefix.pch";
 				INFOPLIST_FILE = "DCACHud/DCACHud-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.westyou.app2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -551,7 +486,6 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BE1ED01B2DC680576D8A170F /* Pods-DCACHud_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -575,7 +509,6 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 017D99CE548F25C868B9B21B /* Pods-DCACHud_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

@@ -1,0 +1,19 @@
+PODS:
+  - DCACHud (0.1.0)
+  - MBProgressHUD (1.0.0)
+
+DEPENDENCIES:
+  - DCACHud (from `../`)
+  - MBProgressHUD (~> 1.0.0)
+
+EXTERNAL SOURCES:
+  DCACHud:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DCACHud: 44f07bb6f5b760d04ac58c0d35dbecdfdc1d211a
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+
+PODFILE CHECKSUM: 5dfce92c5886c5a6bff4ff291b501490a732bd79
+
+COCOAPODS: 1.2.1
