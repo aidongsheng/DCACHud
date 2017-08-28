@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # DCACHud
 
 [![CI Status](http://img.shields.io/travis/aidongsheng/DCACHud.svg?style=flat)](https://travis-ci.org/aidongsheng/DCACHud)
@@ -27,3 +28,6 @@ aidongsheng, 18606563661@163.com
 ## License
 
 DCACHud is available under the MIT license. See the LICENSE file for more info.
+=======
+# DCACHud
+>>>>>>> f23893653a513039819813b9409816a15fab56c4
