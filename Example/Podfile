@@ -1,3 +1,6 @@
+source 'https://github.com/CocoaPods/Specs.git'        #官方仓库地址
+source 'https://github.com/aidongsheng/adsSpecs.git'        #私有仓库地址
+
 target 'DCACHud_Example' do
   pod 'DCACHud', :path => '../'
   pod 'MBProgressHUD' , '~> 1.0.0'
