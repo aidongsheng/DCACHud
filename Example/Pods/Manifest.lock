@@ -1,5 +1,6 @@
 PODS:
-  - DCACHud (0.1.0)
+  - DCACHud (0.0.1):
+    - MBProgressHUD (~> 1.0.0)
   - MBProgressHUD (1.0.0)
 
 DEPENDENCIES:
@@ -11,9 +12,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DCACHud: 44f07bb6f5b760d04ac58c0d35dbecdfdc1d211a
+  DCACHud: a5eddae8311d054dfad16a53b3b7cc13b128e82c
   MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
 
-PODFILE CHECKSUM: 5dfce92c5886c5a6bff4ff291b501490a732bd79
+PODFILE CHECKSUM: f5412c74ce462f2fcb50238ce358c24e051fb5c7
 
 COCOAPODS: 1.2.1

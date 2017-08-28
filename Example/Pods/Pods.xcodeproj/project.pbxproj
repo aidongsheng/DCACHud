@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A24B87F1D3205CAB8F1C30BFE8EFABC /* DCACHud-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6CDA3507648403DD8502F973E90151 /* DCACHud-dummy.m */; };
-		1C76817FA5353D989D7BC33E8C5997B5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 409899CE1143F81E8130E2069D59605B /* CoreGraphics.framework */; };
-		206E057A993EA15F86A5E1B1A841C96A /* DCACHud.m in Sources */ = {isa = PBXBuildFile; fileRef = 885AD80F72F9698D7DD3CEBBD9B25C59 /* DCACHud.m */; };
+		0E70C857E339C8ABC782044C77DE7F0B /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 30858F8F84BD7A73D99478028C4C0E9A /* MBProgressHUD.m */; };
+		19EBAC47EAB7CC15D8E0266F6FA923BC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 409899CE1143F81E8130E2069D59605B /* CoreGraphics.framework */; };
+		1B8DC2AAC251A8E02A08F34189294F86 /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9895137673E5059F732A42A1E2A66E0B /* MBProgressHUD-dummy.m */; };
+		2874A17178B7759663C0F9BF8CFB3463 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12992E853CAE14F2102525E0D84ADAB5 /* Foundation.framework */; };
 		5361482B2B18262F2CA1F516AF74A8C4 /* Pods-DCACHud_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F57319D49879A3F4CE9E499888DAFB62 /* Pods-DCACHud_Example-dummy.m */; };
-		536F7D0550F5FD9F5869CEC995CFEE9B /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 30858F8F84BD7A73D99478028C4C0E9A /* MBProgressHUD.m */; };
-		7291E906AE8A3C1F92183154FE65DCDD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F7BDB2580B244756CFA046131516EF2 /* QuartzCore.framework */; };
+		5FF9EEB8E297A16144F196BD662CFF06 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12992E853CAE14F2102525E0D84ADAB5 /* Foundation.framework */; };
+		7DCA9D3F582D1F822379819A9542C5F0 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E67CBBACD85CE50C19C6320AAD17088 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87942177117A640294ED68334E7E6B20 /* DCACHud-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6CDA3507648403DD8502F973E90151 /* DCACHud-dummy.m */; };
 		9133B57F09358CAF54C87C2F7C6353C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12992E853CAE14F2102525E0D84ADAB5 /* Foundation.framework */; };
-		93F12B05D8333C37D9CBEA3D1782CC04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12992E853CAE14F2102525E0D84ADAB5 /* Foundation.framework */; };
-		E5229F5125ACD420659E7B2D19BB30A8 /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9895137673E5059F732A42A1E2A66E0B /* MBProgressHUD-dummy.m */; };
-		EA321C98029015AA4895C0B26891D8F8 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E67CBBACD85CE50C19C6320AAD17088 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FAAB19479FB225496A6E79166AA3BB30 /* DCACHud.h in Headers */ = {isa = PBXBuildFile; fileRef = D64487345C36556B2FBD6423C704A69F /* DCACHud.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FC0F0A38797D6B9C5E371E039F4F480B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12992E853CAE14F2102525E0D84ADAB5 /* Foundation.framework */; };
+		C24E4884B0FFE93830D7FB88B16DAC14 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F7BDB2580B244756CFA046131516EF2 /* QuartzCore.framework */; };
+		DACE0B6F9634B340B51F094FDC837AD6 /* DCACHud.m in Sources */ = {isa = PBXBuildFile; fileRef = 885AD80F72F9698D7DD3CEBBD9B25C59 /* DCACHud.m */; };
+		FA559E9E9FFE9A34666D67F28F61A9FE /* DCACHud.h in Headers */ = {isa = PBXBuildFile; fileRef = D64487345C36556B2FBD6423C704A69F /* DCACHud.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,15 +26,22 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 586F2DFA9BDCC6675C2546793A69E5CC;
+			remoteGlobalIDString = 61424EDA875A4EBB1931DE2FDCB2EBF7;
 			remoteInfo = MBProgressHUD;
 		};
 		252CC1ACF121D1C2D9FDA2F902F4F57F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 735B95A8666299BE2BD62CCDEA68DDCD;
+			remoteGlobalIDString = 4D68CB24DE0A893670798846E4A403E7;
 			remoteInfo = DCACHud;
+		};
+		51754DD740F5CE9823D4E41EBF25672B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61424EDA875A4EBB1931DE2FDCB2EBF7;
+			remoteInfo = MBProgressHUD;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -66,11 +73,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6202E7DBF98C35628A871FCC3AA0CEBA /* Frameworks */ = {
+		175827E9E22CC3A0BB2F263B22C454F1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC0F0A38797D6B9C5E371E039F4F480B /* Foundation.framework in Frameworks */,
+				19EBAC47EAB7CC15D8E0266F6FA923BC /* CoreGraphics.framework in Frameworks */,
+				5FF9EEB8E297A16144F196BD662CFF06 /* Foundation.framework in Frameworks */,
+				C24E4884B0FFE93830D7FB88B16DAC14 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,13 +91,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F9AC974E3329F79899A7B3BE290FC894 /* Frameworks */ = {
+		D1422FD1BA5177ACFF736545A2548195 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C76817FA5353D989D7BC33E8C5997B5 /* CoreGraphics.framework in Frameworks */,
-				93F12B05D8333C37D9CBEA3D1782CC04 /* Foundation.framework in Frameworks */,
-				7291E906AE8A3C1F92183154FE65DCDD /* QuartzCore.framework in Frameworks */,
+				2874A17178B7759663C0F9BF8CFB3463 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,32 +246,50 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1B1D84BCA4F7BDAE79C37DF88C9DCE23 /* Headers */ = {
+		13B6733745EA9E24B538509978D1290A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA321C98029015AA4895C0B26891D8F8 /* MBProgressHUD.h in Headers */,
+				FA559E9E9FFE9A34666D67F28F61A9FE /* DCACHud.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D1144E5A1B74402FB59110475A7558CA /* Headers */ = {
+		905E663B556897F2C1E83D610D92B62D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAAB19479FB225496A6E79166AA3BB30 /* DCACHud.h in Headers */,
+				7DCA9D3F582D1F822379819A9542C5F0 /* MBProgressHUD.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		586F2DFA9BDCC6675C2546793A69E5CC /* MBProgressHUD */ = {
+		4D68CB24DE0A893670798846E4A403E7 /* DCACHud */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6B44251FA50022CA55D4B2FBE1468C76 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */;
+			buildConfigurationList = 114DFD35C35E164B11FDE0995AA039B3 /* Build configuration list for PBXNativeTarget "DCACHud" */;
 			buildPhases = (
-				7E4305B404C5BA5156646C69578ADD62 /* Sources */,
-				F9AC974E3329F79899A7B3BE290FC894 /* Frameworks */,
-				1B1D84BCA4F7BDAE79C37DF88C9DCE23 /* Headers */,
+				18EE358F496BFBE00ECA7040DEFBB4D3 /* Sources */,
+				D1422FD1BA5177ACFF736545A2548195 /* Frameworks */,
+				13B6733745EA9E24B538509978D1290A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD7268F83280193E5504609F605A7D55 /* PBXTargetDependency */,
+			);
+			name = DCACHud;
+			productName = DCACHud;
+			productReference = 815BD1D380FC4F76B330ABE212C2D62C /* libDCACHud.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		61424EDA875A4EBB1931DE2FDCB2EBF7 /* MBProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C223C1B3FC56072CAC52BD76C932895 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */;
+			buildPhases = (
+				18AED735B270D5A2F944089F08F47905 /* Sources */,
+				175827E9E22CC3A0BB2F263B22C454F1 /* Frameworks */,
+				905E663B556897F2C1E83D610D92B62D /* Headers */,
 			);
 			buildRules = (
 			);
@@ -273,23 +298,6 @@
 			name = MBProgressHUD;
 			productName = MBProgressHUD;
 			productReference = F9F2B78DF0099AE4910660100CB897A3 /* libMBProgressHUD.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		735B95A8666299BE2BD62CCDEA68DDCD /* DCACHud */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5830EFBA092CFDE2FF6478AB0CDBEC10 /* Build configuration list for PBXNativeTarget "DCACHud" */;
-			buildPhases = (
-				9537DA8D2AFA567611EBA2BFBC78995F /* Sources */,
-				6202E7DBF98C35628A871FCC3AA0CEBA /* Frameworks */,
-				D1144E5A1B74402FB59110475A7558CA /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = DCACHud;
-			productName = DCACHud;
-			productReference = 815BD1D380FC4F76B330ABE212C2D62C /* libDCACHud.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		AA1BD8CD9D419E040DF730C4B25BB8D5 /* Pods-DCACHud_Example */ = {
@@ -331,37 +339,37 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				735B95A8666299BE2BD62CCDEA68DDCD /* DCACHud */,
-				586F2DFA9BDCC6675C2546793A69E5CC /* MBProgressHUD */,
+				4D68CB24DE0A893670798846E4A403E7 /* DCACHud */,
+				61424EDA875A4EBB1931DE2FDCB2EBF7 /* MBProgressHUD */,
 				AA1BD8CD9D419E040DF730C4B25BB8D5 /* Pods-DCACHud_Example */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		18AED735B270D5A2F944089F08F47905 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B8DC2AAC251A8E02A08F34189294F86 /* MBProgressHUD-dummy.m in Sources */,
+				0E70C857E339C8ABC782044C77DE7F0B /* MBProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18EE358F496BFBE00ECA7040DEFBB4D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87942177117A640294ED68334E7E6B20 /* DCACHud-dummy.m in Sources */,
+				DACE0B6F9634B340B51F094FDC837AD6 /* DCACHud.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		745F14639CB827344852AE90D945E79B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5361482B2B18262F2CA1F516AF74A8C4 /* Pods-DCACHud_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7E4305B404C5BA5156646C69578ADD62 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E5229F5125ACD420659E7B2D19BB30A8 /* MBProgressHUD-dummy.m in Sources */,
-				536F7D0550F5FD9F5869CEC995CFEE9B /* MBProgressHUD.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9537DA8D2AFA567611EBA2BFBC78995F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0A24B87F1D3205CAB8F1C30BFE8EFABC /* DCACHud-dummy.m in Sources */,
-				206E057A993EA15F86A5E1B1A841C96A /* DCACHud.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,19 +379,25 @@
 		3466A2CA88285DB7E537301765CF63E9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DCACHud;
-			target = 735B95A8666299BE2BD62CCDEA68DDCD /* DCACHud */;
+			target = 4D68CB24DE0A893670798846E4A403E7 /* DCACHud */;
 			targetProxy = 252CC1ACF121D1C2D9FDA2F902F4F57F /* PBXContainerItemProxy */;
 		};
 		BADEA9886ADAFA2FBE5EAA3740E1DE38 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MBProgressHUD;
-			target = 586F2DFA9BDCC6675C2546793A69E5CC /* MBProgressHUD */;
+			target = 61424EDA875A4EBB1931DE2FDCB2EBF7 /* MBProgressHUD */;
 			targetProxy = 18DF734EF2FE2FEA0CAC230EF21A6C11 /* PBXContainerItemProxy */;
+		};
+		DD7268F83280193E5504609F605A7D55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBProgressHUD;
+			target = 61424EDA875A4EBB1931DE2FDCB2EBF7 /* MBProgressHUD */;
+			targetProxy = 51754DD740F5CE9823D4E41EBF25672B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0AD8719A39427159486DE7CE9EEC5F74 /* Debug */ = {
+		179A2A8A9815002028622A78D9A3382A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9F49963B0F4521B9A4435C40D262B322 /* DCACHud.xcconfig */;
 			buildSettings = {
@@ -406,7 +420,7 @@
 			};
 			name = Debug;
 		};
-		2D6505E4F84AB187E42E7D1F17C02FC3 /* Debug */ = {
+		2AEE49792A43D6393B6FF833E77E5D1C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 80DB6C08B9B312D2B623E23F6515C0A5 /* MBProgressHUD.xcconfig */;
 			buildSettings = {
@@ -500,9 +514,9 @@
 			};
 			name = Debug;
 		};
-		6541662051DACDCE90C72E25F2A372F7 /* Release */ = {
+		5CF64E16F1C2576BB0BC3D642C1ADA24 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9F49963B0F4521B9A4435C40D262B322 /* DCACHud.xcconfig */;
+			baseConfigurationReference = 80DB6C08B9B312D2B623E23F6515C0A5 /* MBProgressHUD.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -510,8 +524,8 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/DCACHud/DCACHud-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -567,9 +581,9 @@
 			};
 			name = Release;
 		};
-		81D27BBFE39221A11085CC94C71E9978 /* Release */ = {
+		C080745E3693913AB832535401E55589 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 80DB6C08B9B312D2B623E23F6515C0A5 /* MBProgressHUD.xcconfig */;
+			baseConfigurationReference = 9F49963B0F4521B9A4435C40D262B322 /* DCACHud.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -577,8 +591,8 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				GCC_PREFIX_HEADER = "Target Support Files/DCACHud/DCACHud-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -616,6 +630,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		114DFD35C35E164B11FDE0995AA039B3 /* Build configuration list for PBXNativeTarget "DCACHud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				179A2A8A9815002028622A78D9A3382A /* Debug */,
+				C080745E3693913AB832535401E55589 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -625,29 +648,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5830EFBA092CFDE2FF6478AB0CDBEC10 /* Build configuration list for PBXNativeTarget "DCACHud" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0AD8719A39427159486DE7CE9EEC5F74 /* Debug */,
-				6541662051DACDCE90C72E25F2A372F7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6B44251FA50022CA55D4B2FBE1468C76 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2D6505E4F84AB187E42E7D1F17C02FC3 /* Debug */,
-				81D27BBFE39221A11085CC94C71E9978 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		793C2A76ABCE8BB2BACF2BCCD4169161 /* Build configuration list for PBXNativeTarget "Pods-DCACHud_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				46AF41594F512F887A3C2F1FC0190ABD /* Debug */,
 				CAEA8DA37A8BCD8D0707D1669F841B4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C223C1B3FC56072CAC52BD76C932895 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AEE49792A43D6393B6FF833E77E5D1C /* Debug */,
+				5CF64E16F1C2576BB0BC3D642C1ADA24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
